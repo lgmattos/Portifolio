@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    min-height: 90vh;
+    border-radius: 20px;
+    padding: 0rem 4rem;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.2), 0 0 50px rgba(0,0,0,0.2);
+}
+
+.foto{
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto img{
+    width: 200px;
+    height: 200px;
+    /* width: 20rem;s */
+    z-index: 2;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+}
+/* .circle {
+    width: 15rem;
+    height: 15rem;
+    background: linear-gradient(
+        to right, 
+        rgba(245,70,66,0.75),
+        rgba(8,83,156,0.75)
+    );
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+} */
+
+.title{
+    text-align: center;
+}
+
+.backgraund-red{
+    background: red;
+    min-height: 0vh;
+    min-width: 30vh;
+}
